@@ -1,0 +1,14 @@
+---
+layout: page
+title: Another Page
+page_color: red
+---
+
+## Welcome to another page
+
+_yay_
+
+[back](./)
+
+- [view this page in blue](another-page)
+- [view this page in green](another-page-in-green)
