@@ -1,0 +1,121 @@
+@import "jekyll-theme-modernist-base";
+
+body {
+  color: #555;
+}
+
+.wrapper {
+  background: #DEDEDE;
+  box-shadow: rgba(#000, 0.2) 0 0 0 1px, rgba(#000, 0.45) 0 3px 10px;
+}
+
+strong {
+  color: #222;
+}
+
+header.page-header {
+  h1 {
+    text-shadow: rgba(#fff, 0.9) 0 1px 0;
+  }
+
+  p {
+    &.view {
+      text-shadow: rgba(#fff, 0.9) 0 1px 0;
+    }
+  }
+
+  ul {
+    box-shadow: inset rgba(#fff, 0.45) 0 1px 0, inset rgba(#000, 0.2) 0 -1px 0;
+
+    &:before {
+      background: rgba(#000, 0.1);
+      box-shadow: rgba(#000, 0.2) 0 -1px 0, inset rgba(#fff, 0.7) 0 -1px 0;
+    }
+
+    a {
+      color: #fff;
+      color: rgba(#fff, 0.8);
+      text-shadow: rgba(#000, 0.4) 0 -1px 0;
+
+      strong {
+        color: #fff;
+      }
+    }
+  }
+}
+
+header.post-header {
+  h1 {
+    border: #151515;
+    text-shadow: rgba(255, 255, 255, 0.9) 0 1px 0;
+  }
+}
+
+section {
+  border-top: 1px solid #fff;
+  background: linear-gradient(#fafafa, #DEDEDE 700px);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #222;
+}
+
+h2 {
+  color: #393939;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  color: #494949;
+}
+
+blockquote {
+  background: #ccc;
+  background: rgba(#000, 0.06);
+  color: #222;
+}
+
+code,
+pre {
+  color: #333;
+}
+
+pre {
+  color: #f8f8f2;
+
+  code {
+    color: #f8f8f2;
+  }
+}
+
+th,
+td {
+  border-bottom: 1px solid #aaa;
+}
+
+dt {
+  color: #222;
+}
+
+th {
+  color: #222;
+}
+
+hr {
+  background: #aaa;
+}
+
+footer {
+  color: #ccc;
+
+  a {
+    color: #fff;
+  }
+}

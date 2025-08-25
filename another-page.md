@@ -11,3 +11,4 @@ _yay_
 
 - [view this page in red](another-page-in-red)
 - [view this page in green](another-page-in-green)
+- [view this page in darkness](another-page-in-dark-blue)

@@ -9,4 +9,4 @@ defaults:
     scope:
       path: ""
     values:
-      page_color: blue
+      page_color: light-blue

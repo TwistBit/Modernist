@@ -1,0 +1,66 @@
+@import "jekyll-theme-modernist-dark";
+
+html {
+  background: #937582;
+  background: #937582 linear-gradient(#937582, #bbaab2) fixed;
+}
+
+a {
+  color: #f6c;
+}
+
+header.page-header {
+  background: #380529;
+  background: linear-gradient(#210220, #380529);
+  border-bottom: 1px solid #4d1e3d;
+
+  h1 {
+    color: #f6c;
+  }
+
+  p {
+    color: #9d7389;
+
+    &.view {
+      a {
+        color: #f39;
+      }
+    }
+  }
+
+  ul {
+    background: #ad2067;
+    background: linear-gradient(#870345, #c7317c);
+
+    li {
+      border-right: 1px solid #c54083;
+    }
+
+    li+li {
+      border-left: 1px solid #730c3f;
+    }
+  }
+}
+
+header.post-header {
+  h1 {
+    color: #f6c;
+  }
+}
+
+pre {
+  background: #c5bdbf;
+  color: #070c0c;
+
+  code {
+    color: #070c0c;
+  }
+}
+
+kbd {
+  background-color: #030504;
+  border: 1px solid #392e32;
+  border-bottom-color: #695961;
+  box-shadow: inset 0 -1px 0 #695961;
+  color: #baa8b1;
+}
